@@ -1,10 +1,14 @@
 #include <Arduino.h>
 #include <constants.h>
+#include <sensor.h>
+#include <analog_sensor.h>
+#include <digital_sensor.h>
+
+AnalogSensor lightSensor = AnalogSensor(3);
+DigitalSensor rainSensor = DigitalSensor(4);
 
 void setup() {
-  // put your setup code here, to run once:
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
